@@ -1,51 +1,42 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <title>甲骨文连连看小游戏介绍</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
-        .game-title {
-            color: #333;
-            font-size: 24px;
-        }
-        .game-description {
-            color: #666;
-            font-size: 16px;
-            margin-top: 20px;
-        }
-        .game-image {
-            width: 300px;
-            height: auto;
-            margin-top: 20px;
-        }
-        .play-button {
-            display: inline-block;
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
-            margin-top: 20px;
-            cursor: pointer;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .play-button:hover {
-            background-color: #0056b3;
-        }
-    </style>
-</head>
-<body>
-    <div>
-        <h1 class="game-title">甲骨文连连看</h1>
-        <p class="game-description">
-            甲骨文连连看是一款以中国古代文字——甲骨文为主题的益智小游戏。游戏中包含了多种甲骨文字符，玩家需要在限定时间内找出并连接相同的甲骨文字符，以完成关卡。
-        </p>
-        <img src="game_image.jpg" alt="甲骨文连连看游戏截图" class="game-image">
-        <a href="play_game.html" class="play-button">开始游戏</a>
-    </div>
-</body>
-</html>
+```markdown
+# 甲骨文连连看小游戏
+
+## 游戏简介
+甲骨文连连看是一款以中国古代文字——甲骨文为主题的益智小游戏。游戏设计旨在通过趣味的方式，让玩家了解和学习甲骨文，同时锻炼玩家的记忆力和反应速度。
+
+## 游戏玩法
+- **游戏目标**：在限定时间内，找出并点击相同的甲骨文字符，将它们连接起来消除。
+- **操作方式**：使用鼠标点击甲骨文字符，如果两个字符相同且可以通过不超过两个拐点的路径连接，则它们会被消除。
+- **关卡设置**：游戏包含多个关卡，每个关卡的难度逐渐增加。
+
+## 游戏特色
+- **教育性**：通过游戏学习甲骨文，增加对中国古代文化的认识。
+- **挑战性**：随着关卡的推进，游戏难度逐渐增加，挑战玩家的记忆力和反应速度。
+- **趣味性**：精美的游戏界面和音效，提升游戏体验。
+
+## 运行环境
+- **操作系统**：Windows, macOS, Linux
+- **浏览器**：推荐使用最新版本的Chrome、Firefox或Safari浏览器。
+
+## 游戏截图
+![游戏截图](game_screenshot.png)
+
+## 如何开始游戏
+1. 打开游戏页面。
+2. 点击“开始游戏”按钮。
+3. 选择关卡，开始你的连连看挑战。
+
+## 开发者信息
+- **开发者**：[你的姓名或团队名称]
+- **联系方式**：[你的邮箱或社交媒体链接]
+- **开源许可**：[如果适用，添加开源许可证信息]
+
+## 贡献
+如果你对游戏有任何建议或想要贡献代码，请通过[GitHub](https://github.com/yourusername/oracle_bone_script_game)提交Issues或Pull Requests。
+
+## 鸣谢
+感谢所有测试玩家的宝贵意见，以及所有支持我们的社区成员。
+
+---
+
+请根据实际情况修改上述内容，添加你的游戏截图和开发者信息。如果游戏托管在GitHub上，确保提供了正确的链接。如果游戏不是开源的，可以省略贡献和开源许可部分。
